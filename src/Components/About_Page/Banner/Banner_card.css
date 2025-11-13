@@ -1,0 +1,50 @@
+.banner_card {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: var(--black-color);
+}
+
+.banner_card:hover {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    transition: 0.5s ease-in-out;
+}
+
+.card_text {
+    color: var(--white-color);
+    font-size: 70px;
+    transition: 0.5s ease-in-out;
+}
+
+.banner_card:hover .card_text {
+    color: var(--primary-color);
+    font-size: 70px;
+}
+
+.banner_card h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.banner_card:hover h2 {
+    color: var(--white-color);
+    font-size: 45px;
+    color: var(--primary-color);
+    transition: 0.5s ease-in-out;
+}
+
+.banner_card p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+.banner_card:hover p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+    transition: 0.5s ease-in-out;
+}

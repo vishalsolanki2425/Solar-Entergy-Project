@@ -1,0 +1,47 @@
+.our_services {
+    margin: 150px 0px 0px 0px;
+}
+
+.our_services h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--black-color);
+    padding: 0;
+    margin: 50px 0px 50px 0px;
+}
+
+.our_services p {
+    color: var(--black-color);
+    margin-bottom: 150px;
+}
+
+.our_services h2 span {
+    color: var(--secondary-color);
+}
+
+.service-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.service-title {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    color: var(--white-color);
+    font-size: 35px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.service-card:hover {
+    transform: scale(1.03);
+}

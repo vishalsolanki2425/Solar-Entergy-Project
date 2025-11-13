@@ -1,0 +1,122 @@
+.Recent_Articles_container {
+    margin: 200px 0;
+}
+
+.Recent_Articles h2 {
+    font-size: 36px;
+}
+
+.interested-btn {
+    background-color: #f9e832 !important;
+    color: #000 !important;
+    border: none !important;
+    padding: 15px 30px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    height: 60px;
+    width: 200px;
+}
+
+.blog_home {
+    border: 1px solid #f1f1f1;
+}
+
+.blog_home:hover {
+    border: 1px solid #f1f1f1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog_img img {
+    width: 415px;
+    height: 233px;
+    object-fit: cover;
+}
+
+.blog_content_home h4 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400 !important;
+}
+
+.blog_content_home span {
+    font-size: 12px;
+    color: #62748e;
+    font-weight: 400;
+}
+
+.blog_content_home p {
+    font-size: 16px;
+    color: #62748e;
+    font-weight: 400;
+}
+
+@media (max-width: 1300px) {
+    .blog_img img {
+        width: 100% !important;
+        max-width: 355px !important;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .Recent_Articles_container {
+        margin: 120px 0;
+    }
+
+    .Recent_Articles {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .blog_home {
+        margin-top: 20px;
+
+    }
+
+    .blog_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .interested-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Recent_Articles_container {
+        margin: 100px 0;
+    }
+
+    .blog_img img {
+        width: 100% !important;
+        max-width: 515px !important;
+        height: auto;
+    }
+
+    .blog_content_home h4 {
+        font-size: 20px;
+    }
+
+    .blog_content_home p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Recent_Articles_container {
+        margin: 80px 0;
+        padding: 0 15px;
+    }
+
+    .Recent_Articles h2 {
+        font-size: 28px;
+    }
+
+    .interested-btn {
+        height: 50px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,15 @@
+.services-title{
+    text-align: center;
+}
+
+.services-title p{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.services-title span{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin: 0;
+}

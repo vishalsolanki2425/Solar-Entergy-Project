@@ -1,0 +1,42 @@
+.Our_esteemed span {
+    font-size: 60px;
+    color: var(--secondary-color);
+}
+
+.Our_esteemed h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.logo-slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.logo-track {
+    display: flex;
+    width: calc(200%);
+    animation: scroll-left 25s linear infinite;
+}
+
+.logo-item {
+    flex: 0 0 auto;
+    padding: 0 30px;
+}
+
+.logo-item img {
+    height: 80px;
+    object-fit: contain;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

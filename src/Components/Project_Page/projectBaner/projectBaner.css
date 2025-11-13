@@ -1,0 +1,39 @@
+.projectBaner__container {
+    background-image: url("../../../assets/images/projectBanner.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.projectBaner__container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.projectBaner__title {
+    position: absolute;
+    border: 2px solid white;
+    padding: 20px 20px 10px 200px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    background: rgba(3, 3, 3, 0.4);
+    transition: 0.5s ease-in-out;
+    top: 70%;
+    text-align: start;
+    color: white;
+    font-size: 30px;
+}

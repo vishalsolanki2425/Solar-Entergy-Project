@@ -1,0 +1,131 @@
+.Contact_page {
+    height: 100vh;
+    width: 100%;
+    background-image: url('.././../assets/images/contact.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.Contact_page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.Contact {
+    border: 2px solid white;
+    padding: 50px 40px 50px 400px;
+    border-radius: 10px;
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    background: rgba(3, 3, 3, 0.4);
+    display: inline-block;
+    text-align: start;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    z-index: 2;
+    max-width: 100%;
+    word-wrap: break-word;
+    transition: 0.5s ease-in-out;
+}
+
+.Contact_content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding-left: 300px;
+    transform: translateY(-50%);
+    text-align: start;
+    color: var(--white-color);
+    z-index: 2;
+    width: 100%;
+}
+
+.form-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.submit-btn {
+    background-color: #f9e832;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f60909;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .Contact_page {
+        height: 60vh;
+    }
+
+    .Contact {
+        font-size: 40px;
+        padding: 30px 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .Contact_content {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-left: 0;
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Contact_page {
+        height: 50vh;
+    }
+
+    .Contact {
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Contact_page {
+        height: 40vh;
+    }
+
+    .Contact {
+        font-size: 22px;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,17 @@
+.Our_history h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--black-color);
+    padding: 0;
+    margin: 30px 0px 30px 0px;
+}
+
+.history_p_text {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 800px;
+    margin: 0 auto;
+    letter-spacing: 0.3px;
+}

@@ -1,0 +1,183 @@
+.about-banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../../assets/images/banner_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.about-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.about-us-box {
+    border: 2px solid white;
+    padding: 50px 40px 50px 400px;
+    border-radius: 10px;
+    display: inline-block;
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    background: rgba(3, 3, 3, 0.4);
+    transition: 0.5s ease-in-out;
+}
+
+.banner_content {
+    position: absolute;
+    top: 50%;
+    transform: translate(-90%, -50%);
+    text-align: start;
+    color: var(--white-color);
+}
+
+.about_p_text {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 700px;
+    margin: 0 auto;
+    letter-spacing: 0.3px;
+}
+
+.about-us-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-us h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.about-us p {
+    line-height: 1.6;
+}
+
+.Our_history h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--black-color);
+    padding: 0;
+    margin: 30px 0px 30px 0px;
+}
+
+.history_p_text {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 800px;
+    margin: 0 auto;
+    letter-spacing: 0.3px;
+}
+
+.card-section {
+    background-image: url('../../../assets/images/banner_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--white-color);
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .about-banner {
+        height: 80vh;
+    }
+
+    .about-us-box {
+        padding: 30px 20px;
+        font-size: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .banner_content {
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+    }
+
+    .about-us h2 {
+        font-size: 36px;
+    }
+
+    .about_p_text,
+    .history_p_text {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-banner {
+        height: 80vh;
+    }
+
+    .about-us-box {
+        font-size: 30px;
+        padding: 40px;
+
+    }
+
+    .banner_content {
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+    }
+
+    .about-us h2 {
+        font-size: 28px;
+    }
+
+    .about_p_text,
+    .history_p_text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-banner {
+        height: 80vh;
+    }
+
+    .about-us-box {
+        font-size: 22px;
+        padding: 30px;
+    }
+
+    .about_p_text,
+    .history_p_text {
+        font-size: 14px;
+    }
+
+    .card-section {
+        padding: 40px 10px;
+    }
+}

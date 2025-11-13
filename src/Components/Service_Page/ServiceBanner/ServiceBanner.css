@@ -1,0 +1,31 @@
+.servicebanwrapper {
+    height: 90vh;
+    position: relative;
+}
+
+.service-banner {
+    border: 2px solid white;
+    padding: 50px 40px 50px 400px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    background: rgba(3, 3, 3, 0.4);
+    transition: 0.5s ease-in-out;
+}
+
+.services-heading {
+    position: absolute;
+    top: 50%;
+    transform: translate(-90%, -50%);
+    text-align: start;
+    color: white;
+}
+
+.services-heading h1 {
+    font-size: 50px;
+}

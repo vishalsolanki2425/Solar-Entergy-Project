@@ -1,0 +1,64 @@
+.our_services {
+    margin: 150px 0px
+}
+
+.bg-tras {
+    background-color: transparent;
+}
+
+.ourservice-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.our_services h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--black-color);
+    padding: 0;
+    margin: 50px 0px 50px 0px;
+}
+
+.our_services p {
+    color: var(--black-color);
+    margin: 0;
+}
+
+.our_services h2 span {
+    color: var(--secondary-color);
+}
+
+.ourService-card {
+    transition: transform 0.3s ease;
+    background-color: #17223a;
+    color: #cad9e8;
+}
+
+.ourService-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ourService-card {
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    padding: 25px 0;
+    margin: 0 5px;
+}
+
+.ourService-card h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.ourService-card:hover {
+    transform: scale(1.03);
+}
+
+.ourService-card h5 {
+    color: #cad9e8;
+    opacity: 0.7;
+    font-weight: 300;
+    display: inline-block;
+}

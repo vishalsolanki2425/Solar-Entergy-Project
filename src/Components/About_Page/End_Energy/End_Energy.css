@@ -1,0 +1,103 @@
+.energy-container {
+    margin: 200px 0;
+}
+
+.energy-box {
+    background-color: #0b1930;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+}
+
+
+.energy-content {
+    padding: 75px;
+}
+
+.energy-content h2 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.energy-content p {
+    color: #d1d1d1;
+    margin: 20px 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn_contact {
+    margin-top: 20px;
+}
+
+.interested-btn {
+    background-color: #f9e832 !important;
+    color: #000 !important;
+    border: none !important;
+    padding: 15px 30px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    height: 60px;
+    width: 150px;
+}
+
+.interested-btn:hover {
+    background-color: #f60909 !important;
+    color: #fff !important;
+}
+
+.energy-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.energy-bottom-bar {
+    background-color: #a5031c;
+    width: 85%;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: -15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.energy-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .btn_contact {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .interested-btn {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .energy-content {
+        padding: 25px;
+        text-align: center;
+    }
+
+    .phone {
+        text-align: center;
+    }
+
+    .energy-bottom-bar {
+        width: 80%;
+        height: 30px;
+    }
+}

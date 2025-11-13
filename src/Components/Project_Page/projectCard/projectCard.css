@@ -1,0 +1,66 @@
+.ourProcess-card {
+    color: var(--white-color);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourProcess-card:hover {
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+}
+
+.ourProcess-card p {
+    font-size: 25px;
+}
+
+.arrow {
+    text-align: center;
+    font-size: 30px;
+    color: var(--secondary-color);
+    transition: 0.3s ease-in-out;
+}
+
+.ourProcess-card:hover .arrow {
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+    color: var(--secondary-color)
+}
+
+.ourProcess-card:hover {
+    transform: translateY(-5px);
+}
+
+.arrow {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.ourProcess-card {
+    position: relative;
+    color: #fff;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ourProcess-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent 60%);
+    z-index: 1;
+    border-radius: 12px;
+}
+
+.ourProcess-card p,
+.ourProcess-card a {
+    position: relative;
+    z-index: 2;
+}
