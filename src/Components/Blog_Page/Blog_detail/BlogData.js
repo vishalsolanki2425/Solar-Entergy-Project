@@ -1,11 +1,11 @@
-import blog1 from "../../../assets/images/blog_card1.png";
-import blog2 from "../../../assets/images/blog_card2.jpg";
-import blog3 from "../../../assets/images/blog_card3.jpg";
-import blog4 from "../../../assets/images/blog_card4.png";
-import blog5 from "../../../assets/images/blog_card5.png";
-import blog6 from "../../../assets/images/blog_card6.png";
-import blog7 from "../../../assets/images/blog_card7.png";
-import blog8 from "../../../assets/images/blog_card8.png";
+import blog1 from "../../../Assets/images/blog_card1.png";
+import blog2 from "../../../Assets/images/blog_card2.jpg";
+import blog3 from "../../../Assets/images/blog_card3.jpg";
+import blog4 from "../../../Assets/images/blog_card4.png";
+import blog5 from "../../../Assets/images/blog_card5.png";
+import blog6 from "../../../Assets/images/blog_card6.png";
+import blog7 from "../../../Assets/images/blog_card7.png";
+import blog8 from "../../../Assets/images/blog_card8.png";
 
 export const blogData = [
     {

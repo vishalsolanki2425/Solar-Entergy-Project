@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import "../Banner/Banner.css";
-import sunimg from "../../../assets/images/sun.svg";
-import whyimg from "../../../assets/images/whyImage.png";
+import sunimg from "../../../Assets/images/sun.svg";
+import whyimg from "../../../Assets/images/whyImage.png";
 import historyimage from "../../../assets/images/historyimage.png";
 import Banner_card from './Banner_card';
 import { FaBinoculars } from "react-icons/fa";

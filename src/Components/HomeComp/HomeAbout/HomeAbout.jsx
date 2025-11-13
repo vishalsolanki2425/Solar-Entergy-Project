@@ -1,5 +1,5 @@
 import "./HomeAbout.css";
-import aboutImg from "../../../assets/images/banner_image.jpg";
+import aboutImg from "../../../Assets/images/banner_image.jpg";
 
 const HomeAbout = () => {
     return (

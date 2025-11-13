@@ -1,8 +1,7 @@
 import { Button, Container, Row, Col } from "react-bootstrap";
-import phone from "../../../assets/images/phone.png";
-import energy from "../../../assets/images/energy.jpg";
+import phone from "../../../Assets/images/phone.png";
+import energy from "../../../Assets/images/energy.jpg";
 import "./End_Energy.css";
-
 
 function End_Energy() {
     return (

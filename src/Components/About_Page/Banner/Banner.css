@@ -1,7 +1,7 @@
 .about-banner {
     height: 100vh;
     width: 100%;
-    background-image: url('../../../assets/images/banner_image.jpg');
+    background-image: url('../../../Assets/images/banner_image.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -85,7 +85,7 @@
 }
 
 .card-section {
-    background-image: url('../../../assets/images/banner_image.jpg');
+    background-image: url('../../../Assets/images/banner_image.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -1,5 +1,5 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
-import blog1 from "../../../assets/images/blog1.jpg"
+import blog1 from "../../../Assets/images/blog1.jpg"
 import "./Recent_Articles.css"
 import { Link } from "react-router";
 

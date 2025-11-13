@@ -1,11 +1,11 @@
 import "./Our_services.css";
-import sunimg from "../../../assets/images/sun.svg";
+import sunimg from "../../../Assets/images/sun.svg";
 import { Container, Row, Col } from 'react-bootstrap';
-import Cardimg1 from "../../../assets/images/service-card1.png";
-import Cardimg2 from "../../../assets/images/service-card2.png";
-import Cardimg3 from "../../../assets/images/service-card3.png";
-import Cardimg4 from "../../../assets/images/service-card4.png";
-import Cardimg5 from "../../../assets/images/service-card5.png";
+import Cardimg1 from "../../../Assets/images/service-card1.png";
+import Cardimg2 from "../../../Assets/images/service-card2.png";
+import Cardimg3 from "../../../Assets/images/service-card3.png";
+import Cardimg4 from "../../../Assets/images/service-card4.png";
+import Cardimg5 from "../../../Assets/images/service-card5.png";
 
 function Our_services() {
     return (

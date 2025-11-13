@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { Link } from 'react-router';
-import logo from '../../assets/images/logo.png';
+import logo from '../../Assets/images/logo.png';
 import './FooterComp.css';
 
 function FooterComp() {

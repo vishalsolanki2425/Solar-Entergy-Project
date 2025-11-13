@@ -1,7 +1,7 @@
 import HomeTitle from "../HomeTitle";
 import "./HomePerformance.css";
-import founder from "../../../assets/images/founder.jpg";
-import rating from "../../../assets/images/rating-img.jpg";
+import founder from "../../../Assets/images/founder.jpg";
+import rating from "../../../Assets/images/rating-img.jpg";
 import { useEffect } from "react";
 
 const HomePerf = () => {

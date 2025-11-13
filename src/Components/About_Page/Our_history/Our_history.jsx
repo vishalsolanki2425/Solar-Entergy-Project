@@ -1,7 +1,7 @@
 import "./Our_history.css"
 import { Container } from 'react-bootstrap';
-import sunimg from "../../../assets/images/sun.svg";
-import historyimage from "../../../assets/images/historyimage.png";
+import sunimg from "../../../Assets/images/sun.svg";
+import historyimage from "../../../Assets/images/historyimage.png";
 
 
 function Our_history() {
@@ -17,7 +17,7 @@ function Our_history() {
                             </div>
                             <h2 className="fw-bold">Since 2011 till date...</h2>
                             <p className='history_p_text'>
-                                Electric City Energy Limited, established in 2011 in Abuja, Nigeria, is an indigenous firm specializing in renewable energy solutions with over 5MW of assets deployed to date. As system integrators, we offer end-to-end services from design to maintenance, leveraging cutting-edge technology.Our mission is to address Nigeria's energy gap with innovative, data-driven solutions tailored to client needs. We provide on-and-off-grid solar photovoltaic solutions, energy storage, and efficient management systems for residential and commercial clients. We also develop decentralized solar mini-grid systems in rural and peri-urban settlements across Nigeria to drive sustainable electricity provision for all.
+                                Electric City Energy Limited, established in 2011 in Abuja, Nigeria, is an indigenous firm specializing in renewable energy solutions with over 5MW of Assets deployed to date. As system integrators, we offer end-to-end services from design to maintenance, leveraging cutting-edge technology.Our mission is to address Nigeria's energy gap with innovative, data-driven solutions tailored to client needs. We provide on-and-off-grid solar photovoltaic solutions, energy storage, and efficient management systems for residential and commercial clients. We also develop decentralized solar mini-grid systems in rural and peri-urban settlements across Nigeria to drive sustainable electricity provision for all.
                             </p>
                         </div>
                         <div className="col-md-6">
