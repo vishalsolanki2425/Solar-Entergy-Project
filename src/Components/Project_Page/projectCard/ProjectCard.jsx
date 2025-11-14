@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectCard.css";
+import "./projectCard.css";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { Link } from "react-router";
 
