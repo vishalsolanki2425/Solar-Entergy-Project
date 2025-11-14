@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import "../Banner/Banner.css";
 import sunimg from "../../../Assets/images/sun.svg";
 import whyimg from "../../../Assets/images/whyImage.png";
-import historyimage from "../../../assets/images/historyimage.png";
+import historyimage from "../../../Assets/images/historyimage.png";
 import Banner_card from './Banner_card';
 import { FaBinoculars } from "react-icons/fa";
 import { GiStairsGoal } from "react-icons/gi";
